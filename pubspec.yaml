@@ -1,0 +1,41 @@
+name: hibrido
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Cocogoose
+      fonts:
+        - asset: fonts/Cocogoose.ttf
+
+    - family: Comfortaa
+      fonts:
+        - asset: fonts/Comfortaa.ttf
+
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik.ttf
